@@ -1,0 +1,16 @@
+name = "Telegram-shop"
+version = "1.0.0"
+description = 'Bot for auto sell on TelegramPlatform'
+
+developer = "George"
+
+python-version = "3.11"
+dependencies = [
+    "sqlalchemy",
+    "asyncpg",
+    "aiogram",
+    "pydantic_settings",
+    "fastapi",
+    "uvicorn",
+    "toml"
+]
